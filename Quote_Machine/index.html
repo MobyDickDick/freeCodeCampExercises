@@ -4,24 +4,30 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Cafe Menu</title>
-  <link href="styles.css" rel="stylesheet" />
-  <script type="text/javascript" src="path-to-javascript-file.js"></script>
+  <title>Random Quote Machine</title>
 </head>
 
 <body>
   <div id="quote-box">
     <div id="text">
-
+        You have no changes. Take it!
     </div>
     <div id="author">
-
+        Markus Demarmels
     </div>
-    <div id="newQuote">
+    <div id="new-quote">
       <input id="nextQuoteSubmit" type="submit" value="get next Quote">
     </div>
     <a id="tweet-quote"></a>
   </div>
+  
+   <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+
+ <!-- Load our React component. -->
+ <script src="bundle.js"></script>
 </body>
 
 </html>
